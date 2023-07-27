@@ -1,17 +1,23 @@
 # AngloDox Keyboard
 
-This is a modified version of the ErgoDox keyboard with the following changes:
+This is yet another split keyboard with the following features:
 
 - Per-key RGB LEDs
 - Separate function row
-- Debouncing for each key
-- Hot-swap sockets
+- RC-circuit debouncing for each key
+- Kailh hot-swap sockets
 - RJ11 connectors for the halves
-- Key polling via shift register.
+- Key polling via shift register instead of matrix
 
 And entirely manufacturable by JLCPCB!
 
-Thanks to the debouncing, you can swap the switches while the keyboard is on.
+Thanks to the debouncing, you can swap switches while the keyboard is on.
+
+### Keyboard Layout
+
+The keyboard layout is specified in `keyboard-layout.json` and can be edited in [http://www.keyboard-layout-editor.com/#/](KLE). The current layout is based on the reference ANSI-104 layout, with a macro column on the left, a collapsed arrow cluster on the right, and added thumb clusters from the venerable Ergodox keyboard.
+
+The current layout has 46 keys on the left and 54 on the right, for a total of 100 keys.
 
 ## Development
 
@@ -30,3 +36,5 @@ JLC2KiCadLib C1525 C25779 C36871 C965555 \
 ```
 
 Then merge the symbol and footprint libraries into the main library manually. Remember to update the Value field of the symbols.
+
+When setting up the Footprint library, set the nickname to `footprint`.
