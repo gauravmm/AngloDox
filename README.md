@@ -38,3 +38,9 @@ JLC2KiCadLib C1525 C25779 C36871 C965555 \
 Then merge the symbol and footprint libraries into the main library manually. Remember to update the Value field of the symbols.
 
 When setting up the Footprint library, set the nickname to `footprint`.
+
+### Design Notes
+
+#### Crystal Design
+
+We choose a [generic 12MHz oscillator](https://jlcpcb.com/partdetail/YangxingTech-X322512MSB4SI/C9002) as it is the cheapest basic part available on LCSC. As the load capacitance is 20pF, and the stray capacitance is assumed to be 5pF, we need a pair of 30pF capacitors to get the right frequency. (See [section 3.3 of the application note](https://www.st.com/resource/en/application_note/cd00221665-oscillator-design-guide-for-stm8af-al-s-stm32-mcus-and-mpus-stmicroelectronics.pdf) for the derivation.)
