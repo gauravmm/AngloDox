@@ -46,10 +46,14 @@ We choose a [generic 12MHz oscillator](https://jlcpcb.com/partdetail/YangxingTec
 
 #### ESD Protection
 
-For peace of mind, we add ESD protection to the USB port.
+For peace of mind, we add ESD protection to both USB-C ports.
 
 1. Use a [generic bi-directional 6V TVS diode](https://jlcpcb.com/partdetail/Liown-SMF60CA/C2990473) between `VBUS` and `GND`.
-2. Use a [USB-specific ESD protection circuit](https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519) on the data lines. This is one of the few extended parts we use.
-3. Leave the shield pin disconnected, allowing the host to absorb the ESD.
+2. Use a [USB-specific ESD protection circuit](https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519) on the data lines. This is one of the few extended parts we use. This is based on the suggestions in [Phil's Lab tutorial](https://youtu.be/C7-8nUU6e3E?t=3842).
+3. Short shield pins to GND directly. (This disagrees with the tutorial mentioned above.)
 
-This is based on the suggestions in [Phil's Lab tutorial](https://youtu.be/C7-8nUU6e3E?t=3842).
+#### Half-to-half Connection
+
+The halves are connected via USB-C to USB-C cables. This is preferable to TRRS cables (which have a nasty habit of shorting connections) and RJ11 cables (which are painfully tall and would have to be hand-soldered later). Since we're already paying the extended part fee for the connector, we might as well use them and enjoy the reversible connection it grants us.
+
+To prevent damage from accidental connections, we apply the same ESD protections to the half-to-half connections as we do to the legitimate USB-C port.
