@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 05e2bc7b-1f51-4ab0-9190-209279dbbd1b)
+  (uuid 8b0fe753-3978-41f3-85bd-9ff654da9601)
 
   (paper "A4")
 
@@ -129,23 +129,6 @@
       (project "PCB"
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da" (page "29"))
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 29.21 66.04) (size 31.75 16.51) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2030ad47-566c-4a6b-b217-7789d857619d)
-    (property "Sheetname" "STM32 Module" (at 29.21 65.3284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "stm32mod.kicad_sch" (at 29.21 83.1346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB"
-        (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52" (page "54"))
       )
     )
   )
