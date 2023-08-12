@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid e3a54269-1a3d-4f7c-bb34-c765af6319c9)
+  (uuid 8bb10801-8f5b-4947-b56c-41133261087d)
 
   (paper "A4")
 
@@ -1155,6 +1155,11 @@
     (uuid ff4b800b-05c0-4833-96bb-a2f6611944df)
   )
 
+  (text "Left-Right Connector" (at 20.32 133.35 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1cc3c0fb-0c3b-4642-a9a6-9e7596b8bf55)
+  )
+
   (label "HALF_CONN_C" (at 24.13 162.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e78cd3e-24cc-4f92-ac41-20023cead30e)
@@ -1254,7 +1259,7 @@
           (reference "#PWR0217") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0227") (unit 1)
+          (reference "#PWR060008") (unit 1)
         )
       )
     )
@@ -1282,7 +1287,7 @@
           (reference "#PWR0218") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR060007") (unit 1)
         )
       )
     )
@@ -1291,7 +1296,7 @@
   (symbol (lib_id "power:+5V") (at 114.3 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 106d7f1b-a660-4bf9-9041-a5c785679c2b)
-    (property "Reference" "#PWR0230" (at 114.3 168.91 0)
+    (property "Reference" "#PWR060013" (at 114.3 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 114.3 161.29 0)
@@ -1307,7 +1312,7 @@
     (instances
       (project "PCB"
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR060013") (unit 1)
         )
       )
     )
@@ -1316,7 +1321,7 @@
   (symbol (lib_id "power:+5V") (at 27.94 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c82352d-8e2c-4a59-8364-89a48436a827)
-    (property "Reference" "#PWR0236" (at 27.94 105.41 0)
+    (property "Reference" "#PWR060001" (at 27.94 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 27.94 96.52 0)
@@ -1332,7 +1337,7 @@
     (instances
       (project "PCB"
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR060001") (unit 1)
         )
       )
     )
@@ -1360,7 +1365,7 @@
           (reference "#PWR0221") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0229") (unit 1)
+          (reference "#PWR060010") (unit 1)
         )
       )
     )
@@ -1388,7 +1393,7 @@
           (reference "#PWR0219") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR060005") (unit 1)
         )
       )
     )
@@ -1420,7 +1425,7 @@
           (reference "D7") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "D3") (unit 1)
+          (reference "D60001") (unit 1)
         )
       )
     )
@@ -1448,7 +1453,7 @@
           (reference "#PWR0225") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0235") (unit 1)
+          (reference "#PWR060012") (unit 1)
         )
       )
     )
@@ -1476,7 +1481,7 @@
           (reference "#PWR0219") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR060004") (unit 1)
         )
       )
     )
@@ -1506,7 +1511,7 @@
           (reference "J1") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "J3") (unit 1)
+          (reference "J60001") (unit 1)
         )
       )
     )
@@ -1538,7 +1543,7 @@
           (reference "J1") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "J4") (unit 1)
+          (reference "J60002") (unit 1)
         )
       )
     )
@@ -1569,7 +1574,7 @@
           (reference "J1") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "J2") (unit 1)
+          (reference "J60003") (unit 1)
         )
       )
     )
@@ -1597,7 +1602,7 @@
           (reference "#PWR0218") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0231") (unit 1)
+          (reference "#PWR060009") (unit 1)
         )
       )
     )
@@ -1625,7 +1630,7 @@
           (reference "#PWR0219") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR060002") (unit 1)
         )
       )
     )
@@ -1661,7 +1666,7 @@
           (reference "U48") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "U50") (unit 1)
+          (reference "U60002") (unit 1)
         )
       )
     )
@@ -1685,10 +1690,10 @@
     (property "LCSC" "C165948" (at 52.07 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "0" (uuid 3c937414-8811-411e-b10f-50d61a549301))
-    (pin "0" (uuid 83f8cdfd-87f9-4acc-bde7-061fd38208c5))
-    (pin "0" (uuid 10948b72-4fcf-4650-90a5-d6e7f3f8440d))
-    (pin "0" (uuid c7eb332f-136f-4515-818a-5dfed6fd3af6))
+    (pin "0" (uuid c7eb332f-136f-4515-818a-5dfed6fd3b05))
+    (pin "0" (uuid c7eb332f-136f-4515-818a-5dfed6fd3b05))
+    (pin "0" (uuid c7eb332f-136f-4515-818a-5dfed6fd3b05))
+    (pin "0" (uuid c7eb332f-136f-4515-818a-5dfed6fd3b05))
     (pin "A1" (uuid ac760827-2f08-4dec-890c-b4bc0d16ac26))
     (pin "A12" (uuid e36e8f26-590b-43e0-a32d-674b4a1a69d2))
     (pin "A4" (uuid fb989e4b-54ea-41f7-99dc-131bcf6ddf7f))
@@ -1711,7 +1716,7 @@
           (reference "U44") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "U49") (unit 1)
+          (reference "U60001") (unit 1)
         )
       )
     )
@@ -1739,7 +1744,7 @@
           (reference "#PWR0220") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR060003") (unit 1)
         )
       )
     )
@@ -1767,7 +1772,7 @@
           (reference "#PWR0219") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0233") (unit 1)
+          (reference "#PWR060006") (unit 1)
         )
       )
     )
@@ -1795,7 +1800,7 @@
           (reference "#PWR0225") (unit 1)
         )
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52"
-          (reference "#PWR0237") (unit 1)
+          (reference "#PWR060011") (unit 1)
         )
       )
     )
@@ -2128,6 +2133,48 @@
       (project "PCB"
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da" (page "47"))
         (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52" (page "29"))
+      )
+    )
+  )
+
+  (sheet (at 205.74 80.01) (size 31.75 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bd5195e5-94e7-48fd-a461-3b736ae36e1b)
+    (property "Sheetname" "5-Key Module1" (at 205.74 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "key_module_5.kicad_sch" (at 205.74 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "SR_IN" input (at 205.74 90.17 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a6124173-8790-4dc8-bcee-6d5951e8c0a1)
+    )
+    (pin "SR_CLOCK" input (at 222.25 80.01 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 71551217-f4b4-47a8-b101-a68b4a36670b)
+    )
+    (pin "SR_LOAD" input (at 219.71 80.01 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 70d82dae-7a9b-4b4f-ab25-d2918dda4a49)
+    )
+    (pin "LEDInput" input (at 205.74 82.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1233bff4-acd9-40c3-8e36-1ef3577610e5)
+    )
+    (pin "SR_OUT" input (at 237.49 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid eb7a3313-39bc-4cca-8fb1-ca34c7977dc9)
+    )
+    (pin "LEDOutput" input (at 237.49 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 83a0b898-4000-4c60-970c-ab6bb3f6eb80)
+    )
+    (instances
+      (project "PCB"
+        (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da" (page "47"))
+        (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da/5a7a16c1-b018-4a19-b382-77ab07b68c52" (page "49"))
       )
     )
   )
