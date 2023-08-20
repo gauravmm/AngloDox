@@ -4,15 +4,15 @@ This is yet another split keyboard with the following features:
 
 - Per-key RGB LEDs
 - Separate function row
-- RC-circuit debouncing for each key (so you can swap switches while the keyboard is on!)
+- RC-circuit debouncing for each key (the internal pullups allow you to swap switches while the keyboard is on!)
 - Kailh hot-swap sockets
-- RJ11 connectors for the halves
+- USB-C connectors (but I2C protocol!) for the halves, with ESD protection
 - Key polling via shift register instead of matrix
 - Entirely manufacturable by JLCPCB, using basic parts as much as possible.
 
 ### Keyboard Layout
 
-The keyboard layout is specified in `keyboard-layout.json` and can be edited in [http://www.keyboard-layout-editor.com/#/](KLE). The current layout is based on the reference ANSI-104 layout, with a macro column on the left, a collapsed arrow cluster on the right, and added thumb clusters from the venerable Ergodox keyboard.
+The keyboard layout is specified in `keyboard-layout.json` and can be edited in [KLE](http://www.keyboard-layout-editor.com/). The current layout is based on the reference ANSI-104 layout, with a macro column on the left, a collapsed arrow cluster on the right, and added thumb clusters from the venerable Ergodox keyboard.
 
 The current layout has 46 keys on the left and 54 on the right, for a total of 100 keys.
 
@@ -22,10 +22,14 @@ This relies on a combination of scripts and hand-routing. Here's the general wor
 
     1. Generate the basic circuitry as a hierarchical schematic in KiCad.
     2. Specify a key layout as a [http://www.keyboard-layout-editor.com/#/](KLE) JSON file.
+    3. Run the [KLE Placement Plugin](TODO) for the key layout.
+    4. Specify the layout for each key next to the schematic for the key.
+    5. Enforce the layout using the [HierarchicalPCB plugin](https://github.com/gauravmm/HierarchicalPcb).
+    6. Route the parts between keys, using the swap positions option in the KLE Placement Plugin to improve performance.
 
 ### Regenerate KiCad Library
 
-The Kicad library is generated using [https://github.com/TousstNicolas/JLC2KiCad_lib](JLC2KiCad_lib). To regenerate the library, run:
+The Kicad library is generated using [JLC2KiCad_lib](https://github.com/TousstNicolas/JLC2KiCad_lib). To regenerate the library, run:
 
 ```bash
 JLC2KiCadLib C1525 C25779 C36871 C965555 \

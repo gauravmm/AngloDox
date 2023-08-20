@@ -2,9 +2,6 @@
   "subpcb": {
     "key_column.kicad_pcb": {
       "anchor": "SW1201"
-    },
-    "key_module_5.kicad_pcb": {
-      "anchor": "SW3001"
     }
   },
   "sheet": {
@@ -128,37 +125,19 @@
     "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09": {
       "checked": false
     },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/10513563-be9b-4d78-a23a-441c97601e5a": {
+    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/1aed39e0-978f-4aa8-b3bc-085a932926af": {
       "checked": true
     },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/568fd203-2cfd-4efc-aa67-68d0285df1de": {
+    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/63489790-64c2-45c0-a8d4-4accc0477c18": {
       "checked": true
     },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/58203115-12fd-41dd-bc78-4af9e334b33e": {
+    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/9e431db9-2255-4634-b170-6e0beed93081": {
       "checked": true
     },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/6e7484c3-296c-489e-a405-0ceac0657597": {
+    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/bbe05190-6680-4ca5-9a9b-e66caa144f22": {
       "checked": true
     },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/8a1660b8-6668-49e1-a991-45cb1d3aa575": {
-      "checked": true
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b": {
-      "checked": false
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b/10513563-be9b-4d78-a23a-441c97601e5a": {
-      "checked": true
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b/568fd203-2cfd-4efc-aa67-68d0285df1de": {
-      "checked": true
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b/58203115-12fd-41dd-bc78-4af9e334b33e": {
-      "checked": true
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b/6e7484c3-296c-489e-a405-0ceac0657597": {
-      "checked": true
-    },
-    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bd5195e5-94e7-48fd-a461-3b736ae36e1b/8a1660b8-6668-49e1-a991-45cb1d3aa575": {
+    "/5a7a16c1-b018-4a19-b382-77ab07b68c52/b90356d4-6aa3-46f3-ae28-c6a10d128b09/ca3a7040-0e68-41a0-95f9-42cd9cbd044d": {
       "checked": true
     },
     "/5a7a16c1-b018-4a19-b382-77ab07b68c52/bf5ae46c-467f-4974-ac0b-0ca2949fecda": {
