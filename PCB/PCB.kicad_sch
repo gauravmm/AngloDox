@@ -1,36 +1,62 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d2f5552d-48c0-49b0-8e54-6764f47ed1da)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (text "Left-Hand Side" (at 19.05 19.05 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 986592a0-48ff-4a22-94e0-46278009b88d)
-  )
-
-  (sheet (at 19.05 63.5) (size 31.75 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5a7a16c1-b018-4a19-b382-77ab07b68c52)
-    (property "Sheetname" "Left Half" (at 19.05 62.7884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "keeb_left.kicad_sch" (at 19.05 78.0546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB"
-        (path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da" (page "113"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d2f5552d-48c0-49b0-8e54-6764f47ed1da")
+	(paper "A4")
+	(lib_symbols)
+	(text "Left-Hand Side"
+		(exclude_from_sim no)
+		(at 19.05 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "986592a0-48ff-4a22-94e0-46278009b88d")
+	)
+	(sheet
+		(at 19.05 63.5)
+		(size 31.75 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a7a16c1-b018-4a19-b382-77ab07b68c52")
+		(property "Sheetname" "Left Half"
+			(at 19.05 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "keeb_left.kicad_sch"
+			(at 19.05 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/d2f5552d-48c0-49b0-8e54-6764f47ed1da"
+					(page "113")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
